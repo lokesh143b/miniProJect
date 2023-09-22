@@ -103,7 +103,7 @@ class TrendingMovies extends Component {
               <img
                 className="logo-image"
                 src={eachMovie.backdropPath}
-                alt="movie poster"
+                alt={eachMovie.title}
               />
             </div>
           </Link>
