@@ -1,6 +1,9 @@
 .search-filter-bg-container {
   background-color: #131313;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .search-filter-ul-container {
   display: flex;

@@ -76,13 +76,19 @@ class SearchFilter extends Component {
 
   renderLoadingView = () => (
     <div className="loader-container">
-      <Loader type="TailSpin" height={35} width={380} color=" #D81F26" />
+      <Loader
+        testid="loader"
+        type="TailSpin"
+        height={35}
+        width={380}
+        color=" #D81F26"
+      />
     </div>
   )
 
   renderNotfoundMovies = () => {
     const {searchInput} = this.state
-
+    console.log(searchInput)
     return (
       <div className="search-heading-container">
         <img
@@ -132,7 +138,7 @@ class SearchFilter extends Component {
   renderSuccessView = () => {
     const {searchInput} = this.state
     const isEmpty = searchInput === ''
-
+    console.log(isEmpty)
     return (
       <div>
         {isEmpty ? (

@@ -21,7 +21,7 @@ const Account = props => {
     <div className="account-root-container">
       <Header />
       <div className="account-details-container">
-        <p className="account-heading">Account</p>
+        <h1 className="account-heading">Account</h1>
         <hr className="hr-line" />
         <div className="member-details-container">
           <p className="membership-heading">Member ship</p>
