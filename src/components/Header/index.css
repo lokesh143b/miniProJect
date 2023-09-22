@@ -1,0 +1,152 @@
+.nav-container {
+  background-color: #13131330;
+  min-height: 75px;
+  max-height: auto;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-elements-container {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.app-logo {
+  width: 135px;
+  height: 39px;
+  padding: 0px, 0px, 0px, 0px;
+}
+@media screen and (max-width: 562px) {
+  .app-logo {
+    width: 100px;
+    height: 27px;
+    padding: 0px, 0px, 0px, 0px;
+  }
+}
+.link {
+  text-decoration: none;
+  outline: none;
+}
+
+.nav-list-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-list-link-items {
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: -0.35555556416511536px;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 15px;
+}
+
+@media screen and (max-width: 562px) {
+  .nav-list-link-items {
+    display: none;
+  }
+}
+.search-container {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  size: 20px;
+  background-color: #131313;
+  border-width: 2px 1px 0.5px 1px;
+  border-color: grey;
+  margin-right: 8px;
+  margin-left: 8px;
+  width: 125px;
+  color: white;
+  padding: 5px;
+  border-radius: 8px;
+  height: 100%;
+  width: 250px;
+}
+
+@media screen and (max-width: 562px) {
+  .search {
+    display: flex;
+    width: 150px;
+  }
+}
+.icon-button {
+  background-color: transparent;
+  border-width: 0;
+  padding-top: 5px;
+  margin-top: 4px;
+  cursor: pointer;
+}
+.profile-logo {
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 562px) {
+  .profile-logo {
+    display: none;
+  }
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 562px) {
+  .menu-icon {
+    display: flex;
+  }
+}
+.menu-links {
+  display: none;
+}
+@media screen and (max-width: 562px) {
+  .menu-links {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding-left: 0px;
+  }
+}
+
+.icon {
+  color: #ffffff;
+  height: 25px;
+  margin-right: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.popup-heading {
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  letter-spacing: -0.355556px;
+  color: #ffffff;
+}
+
+.active {
+  color: #ffffff;
+  font-weight: 900;
+  border-bottom: 1px solid white;
+}
+
+.passive {
+  color: #ffffff90;
+}
